@@ -1,0 +1,14 @@
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut.deps.json
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut.runtimeconfig.json
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut.runtimeconfig.dev.json
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut.dll
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/bin/Debug/netcoreapp3.1/LinkedListTut.pdb
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.csproj.AssemblyReference.cache
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.AssemblyInfoInputs.cache
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.AssemblyInfo.cs
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.csproj.CoreCompileInputs.cache
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.dll
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.pdb
+/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/obj/Debug/netcoreapp3.1/LinkedListTut.genruntimeconfig.cache
