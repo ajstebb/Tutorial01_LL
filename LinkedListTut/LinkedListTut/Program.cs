@@ -14,6 +14,8 @@ public class Program
         linkedList.addToBeginning("string");
         linkedList.addToBeginning(-20);
         linkedList.addToBeginning(-55);
+        linkedList.removeFromBeginning();
+        linkedList.removeFromEnd();
 
         linkedList.printConsole();
     }

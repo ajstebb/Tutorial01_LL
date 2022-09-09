@@ -34,7 +34,7 @@ namespace FedsLinkedList
         // This method adds a node to the end of the list
         public void addToEndofList(object data)
         {
-            if(next == null)
+            if (next == null)
             {
                 next = new Node(data);
             }
@@ -43,6 +43,5 @@ namespace FedsLinkedList
                 next.addToEndofList(data);
             }
         }
-
     }
 }

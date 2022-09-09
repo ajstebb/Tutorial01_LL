@@ -56,5 +56,40 @@ namespace FedsLinkedList
             }
         }
 
+        // This method removes a node from the beginning of the list
+        public void removeFromBeginning()
+        {
+            if (headNode != null)
+            {
+                Node temp = headNode;
+                headNode = temp.next;
+                temp.next = null;
+            }
+        }
+
+        //This method removes a node from the end of the list
+        public void removeFromEnd()
+        {
+            var temp = headNode;
+            Node prev = null;
+
+            if (headNode != null)
+            {
+                while (temp.next != null)
+                {
+                    prev = temp;
+                    temp = temp.next;
+                }
+
+                if (prev != null)
+                {
+                    prev.next = null;
+                }
+                else
+                {
+                    headNode = null;
+                }
+            }
+        }
     }
 }
