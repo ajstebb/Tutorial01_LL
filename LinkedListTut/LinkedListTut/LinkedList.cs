@@ -70,11 +70,11 @@ namespace FedsLinkedList
         //This method removes a node from the end of the list
         public void removeFromEnd()
         {
-            var temp = headNode;
-            Node prev = null;
-
             if (headNode != null)
             {
+                var temp = headNode;
+                Node prev = null;
+
                 while (temp.next != null)
                 {
                     prev = temp;
