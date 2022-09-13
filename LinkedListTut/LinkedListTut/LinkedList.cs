@@ -63,6 +63,11 @@ namespace FedsLinkedList
             {
                 Node temp = headNode;
                 headNode = temp.next;
+                
+                // Fed: temp is temporary, why are you setting temp.next
+                // to null when you're not going to use it anymore? 
+                // Remember the lifetime of local variables inside methods 
+                // is during the execution of the method
                 temp.next = null;
             }
         }
