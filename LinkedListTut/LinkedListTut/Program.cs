@@ -42,7 +42,13 @@ public class Program
         Console.WriteLine("Count: " + linkedList.Count);
         Console.WriteLine("\n");
 
-        var node = linkedList.RetrieveNodeAtIndex(3);
-        Console.WriteLine("The value of the node at index 3 is {0}.", node.data);
+        Console.WriteLine("The value of the node at index 3 is {0}.", linkedList.RetrieveNodeAtIndex(3).data);
+        Console.WriteLine("Adding 34 at index 3.");
+        linkedList.InsertAtIndex(34, 3);
+        linkedList.PrintConsole();
+        Console.WriteLine();
+        Console.WriteLine("The value of the node at index 3 is {0}.", linkedList.RetrieveNodeAtIndex(3).data);
+        Console.WriteLine("Count: " + linkedList.Count);
+        Console.WriteLine("\n");
     }
 }

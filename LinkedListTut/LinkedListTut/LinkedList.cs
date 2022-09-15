@@ -110,6 +110,7 @@ namespace FedsLinkedList
         {
             if (index < 0 || index >= Count)
             {
+                // I wanted to use the _print.log method here, but I didn't know what to return.
                 throw new IndexOutOfRangeException("Index is out of range. Cannot retrieve a node.");
             }
             else
@@ -124,6 +125,41 @@ namespace FedsLinkedList
                 }
 
                 return currentNode;
+            }
+        }
+
+        // This method inserts a node at a given index
+        public void InsertAtIndex(object data, int index)
+        {
+            if (index < 0 || index >= Count)
+            {
+                _print.log("Index is out of range. Cannot add the node.");
+            }
+            else if (index == 0)
+            {
+                AddToBeginning(data);
+            }
+            else if (index == Count - 1)
+            {
+                AddToEnd(data);
+            }
+            else
+            {
+                var counter = 0;
+                var temp = _headNode;
+                Node prev = null;
+                var newNode = new Node(data);
+
+                while (counter != index)
+                {
+                    prev = temp;
+                    temp = temp.next;
+                    counter++;
+                }
+
+                newNode.next = temp;
+                prev.next = newNode;
+                Count++;
             }
         }
     }
