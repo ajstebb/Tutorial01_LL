@@ -8,31 +8,41 @@ public class Program
         LinkedList linkedList = new LinkedList();
 
         Console.WriteLine("Adding items to the end of the list.");
-        linkedList.addToEnd(4);
-        linkedList.addToEnd(76);
-        linkedList.addToEnd(1.117);
-        linkedList.addToEnd(8);
+        linkedList.AddToEnd(4);
+        linkedList.AddToEnd(76);
+        linkedList.AddToEnd(1.117);
+        linkedList.AddToEnd(8);
+
+        Console.WriteLine("Count: " + linkedList.Count);
 
         Console.WriteLine("Adding items to the beginning of the list.");
-        linkedList.addToBeginning(-2);
-        linkedList.addToBeginning(true);
-        linkedList.addToBeginning("string");
-        linkedList.addToBeginning(-20);
-        linkedList.addToBeginning(-55);
+        linkedList.AddToBeginning(-2);
+        linkedList.AddToBeginning(true);
+        linkedList.AddToBeginning("string");
+        linkedList.AddToBeginning(-20);
+        linkedList.AddToBeginning(-55);
+
+        Console.WriteLine("Count: " + linkedList.Count);
 
         Console.WriteLine("Showing items in the list.");
-        linkedList.printConsole();
+        linkedList.PrintConsole();
         Console.WriteLine("\n");
 
         Console.WriteLine("Removing the head node.");
-        linkedList.removeFromBeginning();
-        linkedList.printConsole();
+        linkedList.RemoveFromBeginning();
+        linkedList.PrintConsole();
+        Console.WriteLine();
+        Console.WriteLine("Count: " + linkedList.Count);
+        Console.WriteLine("\n");
 
-        Console.WriteLine("\n");
-        
         Console.WriteLine("Removing the tail node.");
-        linkedList.removeFromEnd();
-        linkedList.printConsole();
+        linkedList.RemoveFromEnd();
+        linkedList.PrintConsole();
+        Console.WriteLine();
+        Console.WriteLine("Count: " + linkedList.Count);
         Console.WriteLine("\n");
+
+        var node = linkedList.RetrieveNodeAtIndex(3);
+        Console.WriteLine("The value of the node at index 3 is {0}.", node.data);
     }
 }

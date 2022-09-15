@@ -9,7 +9,7 @@ namespace FedsLinkedList
     internal class Node
     {
         // Class variables
-        private Print print = new Print();
+        private Print _print = new Print();
         public object data;
         public Node next;
 
@@ -21,18 +21,18 @@ namespace FedsLinkedList
         }
 
         // This method prints messages to the console
-        public void printConsole()
+        public void PrintConsole()
         {
-            print.log("(" + data + ")-> ");
+            _print.log("(" + data + ")-> ");
             // If next is not null, recursively keep printing values until list is done
             if (next != null)
             {
-                next.printConsole();
+                next.PrintConsole();
             }
         }
 
         // This method adds a node to the end of the list
-        public void addToEndofList(object data)
+        public void AddToEndOfList(object data)
         {
             if (next == null)
             {
@@ -40,7 +40,7 @@ namespace FedsLinkedList
             }
             else
             {
-                next.addToEndofList(data);
+                next.AddToEndOfList(data);
             }
         }
     }

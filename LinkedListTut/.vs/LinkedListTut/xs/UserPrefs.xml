@@ -1,19 +1,9 @@
 ﻿<Properties StartupConfiguration="{3216F2EE-7D0D-4048-98A9-E3239D40393C}|Default">
-  <MonoDevelop.Ide.ItemProperties.LinkedListTut PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/anikastebbins/Documents/GitHub/Tutorial01_LL/LinkedListTut/LinkedListTut/Program.cs" relfile="LinkedListTut/Program.cs" line="8" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="LinkedListTut/LinkedList.cs">
     <Files>
-      <File FileName="LinkedListTut/Program.cs" Line="8" Column="1" />
-      <File FileName="LinkedListTut/LinkedList.cs" Line="36" Column="1" />
-      <File FileName="LinkedListTut/Print.cs" Line="1" Column="1" />
-      <File FileName="LinkedListTut/Node.cs" Line="17" Column="1" />
+      <File FileName="LinkedListTut/Program.cs" Line="12" Column="33" />
+      <File FileName="LinkedListTut/LinkedList.cs" Line="71" Column="36" />
+      <File FileName="LinkedListTut/Node.cs" Line="45" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,8 +16,23 @@
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>headNode</Value>
+          <Value>headNode.data</Value>
+          <Value>headNode.next.data</Value>
+          <Value>temp.data</Value>
+          <Value>temp.next.data</Value>
+          <Value>prev.data</Value>
+          <Value>prev.next.data</Value>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LinkedListTut PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
