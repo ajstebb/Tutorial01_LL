@@ -50,5 +50,12 @@ public class Program
         Console.WriteLine("The value of the node at index 3 is {0}.", linkedList.RetrieveNodeAtIndex(3).data);
         Console.WriteLine("Count: " + linkedList.Count);
         Console.WriteLine("\n");
+
+        Console.WriteLine("Removing the node at index 1.");
+        linkedList.RemoveAtIndex(1);
+        linkedList.PrintConsole();
+        Console.WriteLine();
+        Console.WriteLine("Count: " + linkedList.Count);
+        Console.WriteLine("\n");
     }
 }

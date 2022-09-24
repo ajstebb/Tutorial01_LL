@@ -162,5 +162,38 @@ namespace FedsLinkedList
                 Count++;
             }
         }
+
+        // This method removes a node at a given index
+        public void RemoveAtIndex(int index)
+        {
+            if (index < 0 || index >= Count)
+            {
+                _print.log("Index is out of range. Cannot remove the node.");
+            }
+            else if (index == 0)
+            {
+                RemoveFromBeginning();
+            }
+            else if (index == Count - 1)
+            {
+                RemoveFromEnd();
+            }
+            else
+            {
+                var counter = 0;
+                var temp = _headNode;
+                Node prev = null;
+
+                while (counter != index)
+                {
+                    prev = temp;
+                    temp = temp.next;
+                    counter++;
+                }
+
+                prev.next = temp.next;
+                Count--;
+            }
+        }
     }
 }
